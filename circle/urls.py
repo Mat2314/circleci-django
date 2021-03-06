@@ -20,5 +20,6 @@ from circle.apps.my_messages.views import hello, goodbye
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', hello, name="hello"),
-    path('goodbye/', goodbye, name='goodbye')
+    path('goodbye/', goodbye, name='goodbye'),
+    path('ciao/', goodbye, name='ciao')
 ]
