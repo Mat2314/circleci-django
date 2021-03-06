@@ -10,4 +10,6 @@ def goodbye(request):
     if request.method == "GET":
         return JsonResponse({"message":"See ya bro!"}, status=200)
 
-
+def ciao(request):
+    if request.method == "GET":
+        return JsonResponse({"message":"Ciao!"}, status=200)
