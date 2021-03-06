@@ -8,7 +8,7 @@ def hello(request):
 
 def goodbye(request):
     if request.method == "GET":
-        return JsonResponse({"message":"See ya bro!"}, status=200)
+        return JsonResponse({"message":"See ya bro!"}, status=201)
 
 def ciao(request):
     if request.method == "GET":
